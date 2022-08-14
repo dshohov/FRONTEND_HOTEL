@@ -370,23 +370,112 @@ color: #000000;
     background-image: url(41.png);
 }
 .accommodation h5 {
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 32px;
+    margin-bottom: 0px;
+
     font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 16px;
-/* identical to box height */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
 
 
-color: #999999;
+    color: #999999;
 
 }
-.accommodation h3{
+.accommodation h4{
+    display: inline-block;
+    margin-left: 4px;
+    margin-top: 32px;
+    margin-bottom: 0px;
+
     font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 20px;
-/* identical to box height */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
 
 
-color: #000000;
+    color: #000000;
+}
+.accommodation h3{
+    display: inline-block;
+    margin-left: 4px;
+    margin-top: 28px;
+    margin-bottom: 0px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.accommodation p{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 45px;
+    margin-bottom: 0px;
+    
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.accommodation div{
+    display: inline-block;
+    margin-left: 53px;
+}
+.place h5{
+    margin-top: 16px;
+    margin-left: -8px;
+    margin-bottom: 33px;
+}
+.accommodation a{
+    box-sizing: border-box;
+    margin-left: 45px;
+    margin-right: 229px;
+
+    padding: 13px 20px;
+
+    width: 100px;
+    height: 42px;
+    
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #CC9933;
+}
+.accommodation h2{
+    display: inline-block;
+    margin-top: 355px;
+    margin-left: 54px;
+    margin-bottom: 27px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    /* identical to box height, or 40px */
+
+
+    color: #FFFFFF;
+
 }
