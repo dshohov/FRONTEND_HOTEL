@@ -369,3 +369,14 @@ color: #000000;
 .accommodation li:nth-child(9){
     background-image: url(41.png);
 }
+.accommodation h5 {
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #999999;
+
+}
