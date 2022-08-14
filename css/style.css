@@ -380,3 +380,13 @@ line-height: 16px;
 color: #999999;
 
 }
+.accommodation h3{
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
