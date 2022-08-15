@@ -306,6 +306,48 @@
                 </li>
             </ul>
         </div>
+        <div class="want_tour">
+            <h1>Хочу тур</h1>
+            <form action="https://jsonplaceholder.typicode.com/posts">
+                <ul>
+                    <li>
+                        <label for="city">Город вылета</label>
+                        <select name="city" id="">
+                            <option value="Moskow">Москва</option>
+                            <option value="SPB">Санкт-Петербург</option>
+                            <option value="Rostov">Ростов-на-дону</option>
+                            <option value="Ufa">Уфа</option>
+                            <option value="Simferopol">Симферополь</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="country">Страна</label>
+                        <select name="country" id="">
+                            <option value="Ukranian">Украина</option>
+                            <option value="Spain">Испания</option>
+                            <option value="France">Франция</option>
+                            <option value="Italy">Италия</option>
+                            <option value="USA">США</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="date">Дата прибытия</label>
+                        <input type="date" id="date" name="date"/>
+                    </li>
+                    <li>
+                        <label for="night">Ночей</label>
+                        <input type="number" min="1" name="night"  list="numbList">
+                    </li>
+                    <li>
+                        <label for="turist">Туристы</label>
+                        <input type="number" min="1" name="turist"  list="numbList">
+                    </li>
+                    <li>
+                        <input type="submit" value="Найти" formaction="https://jsonplaceholder.typicode.com/posts" formmethod="post">
+                    </li>
+                </ul>
+            </form>
+        </div>
     </div>
 </body>
 </html>
