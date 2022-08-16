@@ -308,7 +308,7 @@
         </div>
         <div class="want_tour">
             <h1>Хочу тур</h1>
-            <form action="https://jsonplaceholder.typicode.com/posts">
+            <form method="post" formaction="https://jsonplaceholder.typicode.com/posts">
                 <ul>
                     <li>
                         <label for="city">Город вылета</label>
@@ -321,7 +321,7 @@
                         </select>
                     </li>
                     <li>
-                        <label for="country">Страна</label>
+                        <label for="country">Страна</label><br>
                         <select name="country" id="">
                             <option value="Ukranian">Украина</option>
                             <option value="Spain">Испания</option>
@@ -332,7 +332,7 @@
                     </li>
                     <li>
                         <label for="date">Дата прибытия</label>
-                        <input type="date" id="date" name="date"/>
+                        <input type="date" style="border: none;width: 121px;" id="date" name="date"/>
                     </li>
                     <li>
                         <label for="night">Ночей</label>
@@ -342,11 +342,15 @@
                         <label for="turist">Туристы</label>
                         <input type="number" min="1" name="turist"  list="numbList">
                     </li>
-                    <li>
-                        <input type="submit" value="Найти" formaction="https://jsonplaceholder.typicode.com/posts" formmethod="post">
+                    <li class="last_input" >
+                        <input  type="submit" value="Найти">
                     </li>
                 </ul>
             </form>
+        </div>
+        <div class="contacts">
+            <h1>Контакты</h1>
+            
         </div>
     </div>
 </body>
